@@ -1,0 +1,253 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e1; /* Baby Pink Background */
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.3s ease; /* Smooth transition for background change */
+  }
+  
+  /* Hover effect on body background */
+  body:hover {
+    background-color: #ff1493; /* Dark Pink */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    background-color: #ffb6c1; /* Light Baby Pink */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffe4e1; /* Softer Pink on Hover */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Welcome Message */
+  .welcome {
+    color: #ff69b4; /* Hot Pink */
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Date Display */
+  .date {
+    color: #ff85c0; /* Soft Pink */
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    background: white;
+    border: 1px solid #ffb6c1;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(255, 182, 193, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(255, 182, 193, 0.4);
+  }
+  
+  .profile-card h3 {
+    color: #ff69b4;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card p {
+    color: #ff85c0;
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff69b4;
+    transform: translateY(-3px);
+  }
+  
+  /* Hobbies List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #ffc0cb;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #8b0000;
+  }
+  
+  ul li:hover {
+    background: #ffa6c9;
+  }
+  
+  /* Hover Div */
+  .hover-div {
+    width: 200px;
+    height: 200px;
+    background-color: #ffe4e1;
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-div:hover {
+    background-color: #ffc0cb;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+  }
+  
+  /* Stylish Counter */
+  .counter-container {
+    background: white;
+    border: 3px solid #ffb6c1;
+    border-radius: 20px;
+    padding: 50px; /* Larger Padding */
+    width: 80%; /* Wider Container */
+    max-width: 600px; /* Bigger Max Width */
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(255, 182, 193, 0.5);
+  }
+  
+  .counter-display {
+    font-size: 5rem; /* Even Larger Font */
+    font-weight: bold;
+    color: #ff69b4;
+    margin: 30px 0;
+    text-shadow: 2px 2px 8px rgba(255, 105, 180, 0.7);
+  }
+  
+  .counter-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 20px;
+  }
+  
+  .counter-buttons button {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 20px 40px; /* Bigger Buttons */
+    font-size: 22px; /* Larger Font */
+    font-weight: bold;
+    border: none;
+    border-radius: 15px; /* Rounded Buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .counter-buttons button:hover {
+    background-color: #ff69b4;
+    transform: scale(1.15); /* Enlarges on Hover */
+  }
+  
+  .counter-buttons button:active {
+    transform: scale(1.1);
+    background-color: #ff85c0;
+  }
+  
+  /* Hobbies Container */
+  .hobbies-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border: 2px solid #ffb6c1; /* Baby pink border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4); /* Subtle shadow */
+    text-align: center;
+  }
+  
+  /* Hobbies Heading */
+  .hobbies-container h2 {
+    color: #ff69b4; /* Hot Pink */
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Hobbies Description */
+  .hobbies-container p {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Hobbies List */
+  .hobbies-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hobby-item {
+    background: #ffc0cb; /* Light pink */
+    color: #8b0000; /* Deep red */
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .hobby-item:hover {
+    background-color: #ffb6c1; /* Baby pink */
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  /* Welcome Message */
+.welcome {
+    color: black; /* Changed to black */
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Date Display */
+  .date {
+    color: black; /* Changed to black */
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,55 @@
+.forms-page {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe4e1; /* Baby pink */
+  }
+  
+  .forms-page-title {
+    font-size: 2rem;
+    color: #ff69b4; /* Hot pink */
+    margin-bottom: 20px;
+  }
+  
+  .forms-page-buttons button {
+    background-color: #ffb6c1; /* Light pink */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .forms-page-buttons button:hover {
+    background-color: #ff69b4; /* Hot pink */
+    transform: scale(1.05);
+  }
+  /* Example Styles for FormsPage */
+.forms-page {
+  text-align: center;
+}
+
+.forms-page-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.forms-page-buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.forms-page-buttons button:hover {
+  background-color: #0056b3;
+}
